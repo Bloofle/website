@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-const bebasFontFamily = 'typeface-bebas-neue';
-require(bebasFontFamily);
+import 'typeface-bebas-neue';
 
 function App() {
   return (

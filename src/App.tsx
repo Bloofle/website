@@ -5,6 +5,9 @@ import 'typeface-bebas-neue';
 import atlantis from './media/atlantis.jpg';
 import createMemories from './media/creatememories.jpg';
 import bonfire from './media/bonfire.jpg';
+import mfv from './media/MFV.jpg';
+import atlantis_view from './media/atlantis_view.jpg';
+import serenity from './media/serenity.jpg';
 import { Header } from './components/header';
 import { Carousel, CarouselItem, Container } from 'react-bootstrap';
 
@@ -48,22 +51,22 @@ function App() {
       <Container className="container marketing">
         <div className="row">
           <div className="col-lg-4">
-            <img className="rounded-circle" src={atlantis} alt="Gate to Atlantis" width="140" height="140" />
+            <img className="rounded-circle" src={atlantis_view} alt="Gate to Atlantis" width="140" height="140" />
             <h2>Gate to Atlantis</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <p>Gate to Atlantis is an epic experience of the mystical Lost City of Atlantis, Poseidon would be proud.</p>
+            <p><a className="btn btn-secondary" href="https://rec.net/room/GateToAtlantis" target = "_blank" role="button">View details »</a></p>
           </div>
           <div className="col-lg-4">
-            <img className="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140" />
+            <img className="rounded-circle" src= {mfv} alt="Generic placeholder image" width="140" height="140" />
             <h2>Mount Fuji View</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <p>Gaze at the view, Huddle around the bonfire, Chat with your friends and get an incredible profile picture.</p>
+            <p><a className="btn btn-secondary" href="https://rec.net/room/MountFujiView" target = "_blank" role="button">View details »</a></p>
           </div>
           <div className="col-lg-4">
-            <img className="rounded-circle" src={bonfire} alt="Cliffside Serenity" width="140" height="140" />
+            <img className="rounded-circle" src={serenity} alt="Cliffside Serenity" width="140" height="140" />
             <h2>Cliffside Serenity</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <p>The perfect hangout for all hangout lovers! This experience will take you on a trip of beauty, amazement and relaxation!</p>
+            <p><a className="btn btn-secondary" href="https://rec.net/room/CliffsideSerenity" target = "_blank" role="button">View details »</a></p>
           </div>
         </div>
 

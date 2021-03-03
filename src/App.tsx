@@ -2,24 +2,49 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'typeface-bebas-neue';
+import atlantis from './media/atlantis.jpg';
+import createMemories from './media/creatememories.jpg';
+import bonfire from './media/bonfire.jpg';
+import { Header } from './components/header';
+import { Carousel, CarouselItem } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I am Bloofle the VR!!!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/channel/UCzJgaiH8-MpyGb5VdXcJurg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View My Youtube Channel
-        </a>
-      </header>
+      <Header />
+      <Carousel>
+        <Carousel.Item>
+          <img className="d-block w-100" src={atlantis} alt="Atlantis" />
+          <Carousel.Caption>
+            <h3>Atlantis</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={createMemories}
+            alt="Second slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={bonfire}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 }

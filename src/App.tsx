@@ -16,8 +16,8 @@ function App() {
         <Carousel.Item>
           <img className="d-block w-100" src={atlantis} alt="Atlantis" />
           <Carousel.Caption>
-            <h3>Atlantis</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Imagination is key</h3>
+            <p>Whether it's from taking photos or taking in the view, enjoy it while you can.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,8 +28,8 @@ function App() {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Create memories</h3>
+            <p>These rooms are best for great time with your special partner, scenery takes emotion to the next level. </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -40,8 +40,8 @@ function App() {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>Take a seat</h3>
+            <p>Relax, sit down and get comfortable.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

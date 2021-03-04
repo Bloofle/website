@@ -1,27 +1,20 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 export const Header = () => {
- return (
-    <header>
-    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a className="navbar-brand" href="#">Bloofle</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarCollapse">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
- );
+    return (
+        <Navbar expand="lg" variant="dark" bg="dark">
+          <Navbar.Brand href="/">Bloofle</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                  <Nav.Link href="/">Home</Nav.Link>
+                  <NavDropdown title="My Works" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
+                    <NavDropdown.Item href="/drawings">Drawings</NavDropdown.Item>
+                    <NavDropdown.Item href="/music">Music</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="https://rec.net/bloofle" target="_blank">My RecRoom Profile</Nav.Link>
+              </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+    );
 };

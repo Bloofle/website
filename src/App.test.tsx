@@ -2,8 +2,10 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/View My Youtube Channel/i);
+  const linkElement = screen.getByText(/My Works/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+//Add more tests!

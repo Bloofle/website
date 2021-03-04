@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'typeface-bebas-neue';
+import { Routes } from './routes/routes';
+import { Header } from './components/header';
+import { Footer } from './components/footer';
+
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I am Bloofle the VR!!!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/channel/UCzJgaiH8-MpyGb5VdXcJurg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View My Youtube Channel
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

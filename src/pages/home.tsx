@@ -1,15 +1,19 @@
 import React from 'react';
 import atlantis from '../media/atlantis.jpg';
-import atlantis_view from './media/atlantis_view.jpg';
-import serenity from './media/serenity.jpg';
+import atlantis_view from '../media/atlantis_view.jpg';
+import serenity from '../media/serenity.jpg';
 import createMemories from '../media/creatememories.jpg';
-import mfv from './media/MFV.jpg';
+import mfv from '../media/MFV.jpg';
 import bonfire from '../media/bonfire.jpg';
 import FeatureBox from '../components/featureBox';
 import Featurette from '../components/featurette';
 import { Carousel, Container } from 'react-bootstrap';
+import { useEffect } from 'react';
 
 export const Home = () => {
+    
+    useEffect(() => { document.title = 'Bloofle Portfolio Page';  }, []);
+
     return (
         <>
             <Carousel>

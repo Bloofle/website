@@ -24,7 +24,7 @@ export const Home = () => {
                             <img className="d-block w-100" src={atlantis} alt="Atlantis" />
                             <Carousel.Caption>
                                 <h3>Imagination is key</h3>
-                                <p>Whether it's from taking photos or taking in the view, enjoy it while you can.</p>
+                                <p className="centered">Whether it's from taking photos or taking in the view, enjoy it while you can.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>

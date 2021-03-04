@@ -3,6 +3,10 @@
     background-color: rgba(208, 210, 212, 0.932);
 }
 
+p.justified {
+    text-align: justify;
+}
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;

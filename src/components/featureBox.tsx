@@ -9,11 +9,11 @@ interface FeatureBoxProps {
 
 const FeatureBox: FC<FeatureBoxProps> = ({ title, description, image, link }: FeatureBoxProps) => {
     return (
-        <div className="col-lg-4">
+        <div className="col-lg-4 center">
             <img className="rounded-circle" src={image} alt={title} width="140" height="140" />
             <h2>{title}</h2>
-            <p>{description}</p>
-            <p><a className="btn btn-secondary" href={link} role="button" target="_blank">View details »</a></p>
+            <p className="justified">{description}</p>
+            <p><a className="btn btn-secondary" href={link} role="button" target="_blank">View Room »</a></p>
         </div>
     );
 };

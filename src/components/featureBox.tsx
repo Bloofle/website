@@ -13,7 +13,7 @@ const FeatureBox: FC<FeatureBoxProps> = ({ title, description, image, link }: Fe
             <img className="rounded-circle" src={image} alt={title} width="140" height="140" />
             <h2>{title}</h2>
             <p>{description}</p>
-            <p><a className="btn btn-secondary" href={link} role="button">View details »</a></p>
+            <p><a className="btn btn-secondary" href={link} role="button" target="_blank">View details »</a></p>
         </div>
     );
 };

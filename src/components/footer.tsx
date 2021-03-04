@@ -12,7 +12,7 @@ export const Footer = () => {
             <Button size="lg" href="#" variant="dark">
                 <FontAwesomeIcon icon={faYoutube} />
             </Button>
-            <Button size="lg" href="#" variant="dark">
+            <Button size="lg" href="https://github.com/bloofle" variant="dark" target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
             </Button>
             <div className="py-3 text-center">Copyright 2021 Bloofle</div>

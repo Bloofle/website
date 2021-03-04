@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    background-color: rgba(208, 210, 212, 0.932);
 }
 
 .App-logo {
@@ -24,8 +25,26 @@
     color: white;
 }
 
+.container {
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.container.nopadding {
+    padding-top: 0px;
+}
+
+.row.nomargin {
+    margin-top: -15px;
+}
+
 .App-link {
     color: #61dafb;
+    font-family: 'Bebas Neue';
+}
+
+h1 {
     font-family: 'Bebas Neue';
 }
 

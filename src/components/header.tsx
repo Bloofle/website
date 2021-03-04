@@ -12,7 +12,7 @@ export const Header = () => {
                     <NavDropdown.Item href="/drawings">Drawings</NavDropdown.Item>
                     <NavDropdown.Item href="/music">Music</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="https://rec.net/bloofle" target="_blank">My RecRoom Profile</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
               </Nav>
           </Navbar.Collapse>
         </Navbar>

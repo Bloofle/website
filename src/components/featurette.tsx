@@ -5,7 +5,7 @@ interface FeaturetteProps {
     subtitle: string;
     description: string;
     image: string;
-    textOnTheLeft: boolean;
+    textOnTheLeft?: boolean;
 }
 
 const Featurette: FC<FeaturetteProps> = ({ title, subtitle, description, image, textOnTheLeft }: FeaturetteProps) => {

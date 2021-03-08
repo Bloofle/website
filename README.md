@@ -4,10 +4,6 @@ I have later developed it to a site to showcase my achievements and interests
 
 The website is hosted in Azure Cloud and deployed automatically via Azure Dev Ops, so I have a working CI/CD process (for beginners, of course).
 
-## Site Status
-[![Build Status](https://dev.azure.com/georgemolchanyuk/My%20Website/_apis/build/status/Bloofle.website?branchName=master)](https://dev.azure.com/georgemolchanyuk/My%20Website/_build/latest?definitionId=4&branchName=master)
-
-
 ## Available Scripts
 
 In the project directory, you can run:

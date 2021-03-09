@@ -1,10 +1,14 @@
 import React from 'react';
-import atlantis from '../media/atlantis.jpg';
-import atlantis_view from '../media/atlantis_view.jpg';
-import serenity from '../media/serenity.jpg';
-import createMemories from '../media/creatememories.jpg';
-import mfv from '../media/MFV.jpg';
-import bonfire from '../media/bonfire.jpg';
+import atlantis from '../media/recroom/atlantis.jpg';
+import atlantis_view from '../media/recroom/atlantis_view.jpg';
+import serenity from '../media/recroom/serenity.jpg';
+import atlantis_scene from '../media/recroom/atlantis_scene.jpg';
+import serenitylone from '../media/recroom/serenitylone.jpg';
+import groupmfv from '../media/recroom/groupmfv.jpg';
+import mfvgroup from '../media/recroom/mfvgroup.jpg';
+import createMemories from '../media/recroom/creatememories.jpg';
+import mfv from '../media/recroom/MFV.jpg';
+import bonfire from '../media/recroom/bonfire.jpg';
 import FeatureBox from '../components/featureBox';
 import Featurette from '../components/featurette';
 import { Carousel, Container } from 'react-bootstrap';
@@ -65,9 +69,9 @@ export const Home = () => {
                         link="https://rec.net/room/CliffsideSerenity"
                     />
                 </div>
-                <Featurette title='My achievements' subtitle="It'll blow your mind" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo." image={atlantis} textOnTheLeft={true} />
-                <Featurette title='My achievements' subtitle="It'll blow your mind" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo." image={bonfire} textOnTheLeft={false} />
-                <Featurette title='My achievements' subtitle="It'll blow your mind" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo." image={atlantis} textOnTheLeft={true} />
+                <Featurette title='My achievements' subtitle="It'll blow your mind" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo." image={mfvgroup} textOnTheLeft={true} />
+                <Featurette title='My achievements' subtitle="It'll blow your mind" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo." image={serenitylone} textOnTheLeft={false} />
+                <Featurette title='My achievements' subtitle="It'll blow your mind" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo." image={atlantis_scene} textOnTheLeft={true} />
                 <hr className="featurette-divider" />
             </Container>
         </>

@@ -7,7 +7,7 @@ import city1 from '../media/minecraft/city1.jpg';
 import trigger4 from '../media/fortnite/trigger4.jpg';
 import mfvgroup from '../media/recroom/mfvgroup.jpg';
 import Timeline, { TimelineEvent } from 'react-image-timeline';
-require('react-image-timeline/dist/timeline.css');
+require('../timeline.css');
 
 export const About = () => {
     useEffect(() => { document.title = 'Bloofle: About me'; }, []);

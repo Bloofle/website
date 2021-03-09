@@ -2,10 +2,10 @@ import React from 'react';
 import { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Featurette from '../components/featurette';
-import bonfire from '../media/bonfire.jpg';
-import city1 from '../media/city1.jpg';
-import trigger4 from '../media/trigger4.jpg';
-import mfvgroup from '../media/mfvgroup.jpg';
+import bonfire from '../media/recroom/bonfire.jpg';
+import city1 from '../media/minecraft/city1.jpg';
+import trigger4 from '../media/fortnite/trigger4.jpg';
+import mfvgroup from '../media/recroom/mfvgroup.jpg';
 import Timeline, { TimelineEvent } from 'react-image-timeline';
 require('react-image-timeline/dist/timeline.css');
 

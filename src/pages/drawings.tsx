@@ -7,6 +7,7 @@ export const Drawings = () => {
     return (
         <div>
             <h1>My Drawings</h1>
+            <p>Yes I draw too! Here are some of my artworks. Pretty cool huh?</p>
         </div>
     );
 }

@@ -6,14 +6,15 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
-      ],
-      "route": "message"
+        "get",
+        "post"
+      ]
     },
     {
       "type": "http",
       "direction": "out",
       "name": "res"
     }
-  ]
+  ],
+  "scriptFile": "../dist/AccessChecker/index.js"
 }

@@ -1,17 +1,19 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Access API (simple)",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "prestart": "npm run build",
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "npm run test"
   },
   "dependencies": {},
   "devDependencies": {
-    "@azure/functions": "^1.0.2-beta2",
-    "typescript": "^3.3.3"
+    "@azure/functions": "^1.2.3",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@types/jest": "^26.0.20",
+    "typescript": "^4.0.0"
   }
 }

@@ -15,7 +15,7 @@ variables:
   functionAppName: 'blooflesecurity'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'Production'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'

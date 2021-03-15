@@ -53,7 +53,7 @@ export const About = () => {
                 <div className="col-md-7 order-md-1">
                     <h2 className="featurette-heading">Hi, I'm George.</h2>
                     <span className="text-muted">Welcome to my portfolio page</span>
-                    <p className="justified">I am a VR artist and programmer (beginner) and I have a passion for technology and computer science.</p>
+                    <p className="justified"> I am a VR artist and programmer (beginner) and I have a passion for technology and computer science.</p>
                     <p className="justified">I aspire in things like video editing, art in virtual reality, coding, video production, music, art and more.</p>
                     <p className="justified">Bloofle is just a stage name, you can call me George. I've been doing these things for a while and have wanted to proceed in them by getting proper education about technology and it's endless capabilities. I am writing this in my room I am this serious. </p>
                 </div>

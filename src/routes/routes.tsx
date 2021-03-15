@@ -4,6 +4,7 @@ import { Music } from '../pages/music';
 import { Videos } from '../pages/videos';
 import { Home } from '../pages/home';
 import { About } from '../pages/about';
+import { VR } from '../pages/vr';
 import React from 'react';
 
 export const Routes = () => (
@@ -19,6 +20,9 @@ export const Routes = () => (
         </Route>
         <Route path="/about">
             <About />
+        </Route>
+        <Route path="/vr">
+            <VR />
         </Route>
         <Route path="/">
             <Home />

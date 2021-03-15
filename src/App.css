@@ -52,6 +52,24 @@ h1 {
     font-family: 'Bebas Neue';
 }
 
+.header_section {
+    font-family: 'Bebas Neue';
+    font-size: 2.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(208, 210, 212, 0.932);
+    border-radius: 5px/5px;
+}
+
+.header_section_smaller {
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(208, 210, 212, 0.932);
+    border-radius: 5px/5px;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);

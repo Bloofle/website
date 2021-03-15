@@ -5,6 +5,7 @@ import Featurette from '../components/featurette';
 import bonfire from '../media/recroom/bonfire.jpg';
 import city1 from '../media/minecraft/city1.jpg';
 import trigger4 from '../media/fortnite/trigger4.jpg';
+import ReactPlayer from 'react-player';
 import mfvgroup from '../media/recroom/mfvgroup.jpg';
 import Timeline, { TimelineEvent } from 'react-image-timeline';
 require('../timeline.css');
@@ -48,19 +49,31 @@ export const About = () => {
 
     return (
         <Container className="marketing">
-            <h1>About me</h1>
+            <h1 className="header_section">About me</h1>
             <Row>
-                <div className="col-md-7 order-md-1">
-                    <h2 className="featurette-heading">Hi, I'm George.</h2>
-                    <span className="text-muted">Welcome to my portfolio page</span>
-                    <p className="justified">I am a VR artist and programmer (beginner) and I have a passion for technology and computer science.</p>
-                    <p className="justified">I aspire in things like video editing, art in virtual reality, coding, video production, music, art and more.</p>
-                    <p className="justified">Bloofle is just a stage name, you can call me George. I've been doing these things for a while and have wanted to proceed in them by getting proper education about technology and it's endless capabilities. I am writing this in my room I am this serious. </p>
+                <Col><h2 className="featurette-heading">Hi, I'm George.</h2>
+                    <br/>
+                </Col>
+            </Row>
+            <Row>
+                <div className="col-md-5 order-md-1">
+
+                    <p className="justified lead">I am a VR artist and programmer (beginner) and I have a passion for technology and computer science.</p>
+                    <p className="justified lead">I aspire in things like video editing, art in virtual reality, coding, video production, music, art and more.</p>
+                    <p className="justified lead">Bloofle is just a stage name, you can call me George. I've been doing these things for a while and have wanted to proceed in them by getting proper education about technology and it's endless capabilities. I am writing this in my room I am this serious.</p>
                 </div>
-                <div className="col-md-5 order-md-2">
-                    <img className="featurette-image img-fluid mx-auto" src={bonfire} alt="Bloofle" />
+                <div className="col-md-7 order-md-2">
+                    <ReactPlayer className="featurette-image img-fluid mx-auto" url="https://www.youtube.com/watch?v=EmAK6SdioI4&t=8s" />
                 </div>
             </Row>
+            <Row>
+                <Col>
+                    <p className="justified muted">I have created this site together with my Dad, as I wanted to learn how the websites are made, so we chose a 'real-world' path:
+                    we are using source control, continuous integration and continuous deployment, cloud hosting, automated testing and other techy things. I am still learning, but it is already looking cool.
+                    I think this is something I want to do in future.</p>
+                </Col>
+            </Row>
+            <h1 className="header_section">My progress path</h1>
             <Row>
                 <Timeline events={events} />
             </Row>

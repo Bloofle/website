@@ -8,6 +8,7 @@ export const Header = () => {
                 <Nav className="mr-auto">
                   <Nav.Link href="/">Home</Nav.Link>
                   <NavDropdown title="My Works" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="/vr">Virtual Reality</NavDropdown.Item>
                     <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
                     <NavDropdown.Item href="/drawings">Drawings</NavDropdown.Item>
                     <NavDropdown.Item href="/music">Music</NavDropdown.Item>

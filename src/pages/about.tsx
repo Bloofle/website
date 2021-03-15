@@ -52,7 +52,7 @@ export const About = () => {
             <h1 className="header_section">About me</h1>
             <Row>
                 <Col><h2 className="featurette-heading">Hi, I'm George.</h2>
-                    <br/>
+                    <br />
                 </Col>
             </Row>
             <Row>
@@ -61,6 +61,7 @@ export const About = () => {
                     <p className="justified lead">I am a VR artist and programmer (beginner) and I have a passion for technology and computer science.</p>
                     <p className="justified lead">I aspire in things like video editing, art in virtual reality, coding, video production, music, art and more.</p>
                     <p className="justified lead">Bloofle is just a stage name, you can call me George. I've been doing these things for a while and have wanted to proceed in them by getting proper education about technology and it's endless capabilities. I am writing this in my room I am this serious.</p>
+
                 </div>
                 <div className="col-md-7 order-md-2">
                     <ReactPlayer className="featurette-image img-fluid mx-auto" url="https://www.youtube.com/watch?v=EmAK6SdioI4&t=8s" />

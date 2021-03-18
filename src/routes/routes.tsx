@@ -6,6 +6,10 @@ import { Home } from '../pages/home';
 import { About } from '../pages/about';
 import { VR } from '../pages/vr';
 import React from 'react';
+import { MountFuji } from '../pages/RecRoom/mountfuji';
+import { GateToAtlantis } from '../pages/RecRoom/atlantis';
+import { AJR } from '../pages/RecRoom/ajr';
+import { CliffSideSerenity } from '../pages/RecRoom/cliffside';
 
 export const Routes = () => (
     <Switch>
@@ -21,8 +25,20 @@ export const Routes = () => (
         <Route path="/about">
             <About />
         </Route>
-        <Route path="/vr">
+        <Route exact={true} path="/vr">
             <VR />
+        </Route>
+        <Route exact={true} path="/vr/mountfuji">
+            <MountFuji />
+        </Route>
+        <Route exact={true} path="/vr/atlantis">
+            <GateToAtlantis />
+        </Route>
+        <Route exact={true} path="/vr/wires">
+            <AJR />
+        </Route>
+        <Route exact={true} path="/vr/serenity">
+            <CliffSideSerenity />
         </Route>
         <Route path="/">
             <Home />

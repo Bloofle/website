@@ -10,8 +10,8 @@ interface FeaturetteProps {
 }
 
 const Featurette: FC<FeaturetteProps> = ({ title, subtitle, description, image, link, textOnTheLeft }: FeaturetteProps) => {
-    const textClass: string = textOnTheLeft ? "col-md-7 order-md-1" : "col-md-7 order-md-2";
-    const imageClass: string = textOnTheLeft ? "col-md-5 order-md-2" : "col-md-5 order-md-1";
+    const textClass: string = textOnTheLeft ? "col-md-7 order-md-1 with_bottom_margin" : "col-md-7 order-md-2 with_bottom_margin";
+    const imageClass: string = textOnTheLeft ? "col-md-5 order-md-2 with_bottom_margin" : "col-md-5 order-md-1 with_bottom_margin";
 
     return (
         <>

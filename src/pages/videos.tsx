@@ -17,10 +17,9 @@ export const Videos = () => {
                     <hr className="featurette-divider" />
                 </Col>
             </Row>
-            <Creation title="Bloofle Overture" video="https://www.youtube.com/embed/EmAK6SdioI4" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="Minecraft" video="https://www.youtube.com/embed/_-TltwqkOI8" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="AJR Experience" video="https://www.youtube.com/embed/GEIMZemmEWI" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="Mount Fuji View 360" video="https://www.youtube.com/embed/oq8G7A09PHs" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
+            <Creation title="Bloofle Overture" video="https://www.youtube.com/embed/EmAK6SdioI4" description="An introduction of all my works in Recroom. Mount Fuji View, Gate To Atlantis and Cliffside Serenity are shown in this video." link="" />
+            <Creation title="Minecraft" video="https://www.youtube.com/embed/_-TltwqkOI8" description="An introduction of my most interesting works in Minecraft." link="" />
+            <Creation title="Night Falls 360" video="https://www.youtube.com/embed/oq8G7A09PHs" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
             <Creation title="Queen Live Aid 1985" video="https://www.youtube.com/embed/6nlRiIcjZ-c" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
             <Creation title="MountFujiView Trailer" video="https://www.youtube.com/embed/KvYY7NpeRZI" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
             <Row>&nbsp;</Row>

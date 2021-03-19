@@ -6,7 +6,7 @@ import Creation from '../components/creation';
 import mfvgroup from '../media/recroom/mfvgroup.jpg';
 import themodernsuite from '../media/recroom/themodernsuite.jpg';
 import atlantissideviewq from '../media/recroom/atlantissideviewq.jpg';
-import nightfalls from '../media/recroom/nightfalls.jpg';
+import nightfalls from '../media/recroom/nightfallspicnic.jpg';
 import serenitymoon from '../media/recroom/serenitymoon.jpg';
 import skybackground from '../media/wires/skybackground.png';
 

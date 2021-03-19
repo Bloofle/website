@@ -17,15 +17,15 @@ export const GateToAtlantis = () => {
                     <Carousel.Item>
                         <img className="d-block w-100" src={animatedLights} alt="Falling Leaves" />
                         <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
+                            <h3>Artificial Animated Lights</h3>
+                            <p className="centered">These lights are moving constantly to make a magical effect when entering the room.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={spinningWind} alt="Fireflies" />
                         <Carousel.Caption>
-                            <h3>Circuit to toggle fireflies</h3>
-                            <p>This small circuit toggles the fireflies to fly around you when you enter the room</p>
+                            <h3>Spinning Wind Particle Effect</h3>
+                            <p>The wind particle spins around the fish to create the effect that the water is moving along with them.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -38,8 +38,8 @@ export const GateToAtlantis = () => {
                     <Carousel.Item>
                         <img className="d-block w-100" src={atlantisHeader} alt="Effects" />
                         <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>What is Atlantis?</h3>
+                            <p>Atlantis is a mythical city that has never been found.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

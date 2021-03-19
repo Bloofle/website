@@ -4,6 +4,7 @@ import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import fallingleaves from '../../media/wires/fallingleaves.jpg';
 import fireflies from '../../media/wires/fireflytoggle.jpg';
 import mfveffects from '../../media/wires/mfveffects.jpg';
+import movinglight from '../../media/wires/movingcampfirelight.jpg';
 
 export const MountFuji = () => {
     useEffect(() => { document.title = 'Bloofle: Mount Fuji View in details'; }, []);
@@ -29,6 +30,13 @@ export const MountFuji = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={mfveffects} alt="Effects" />
+                        <Carousel.Caption>
+                            <h3>Effects used for room</h3>
+                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={movinglight} alt="Effects" />
                         <Carousel.Caption>
                             <h3>Effects used for room</h3>
                             <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>

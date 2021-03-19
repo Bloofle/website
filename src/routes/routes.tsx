@@ -12,6 +12,8 @@ import { AJR } from '../pages/RecRoom/ajr';
 import { CliffSideSerenity } from '../pages/RecRoom/cliffside';
 import { Minecraft } from '../pages/Minecraft/minecraft';
 import { Fortnite } from '../pages/Fortnite/fortnite';
+import { ModernSuite } from '../pages/RecRoom/modernsuite';
+import { Secret } from '../pages/Secret/secret';
 
 export const Routes = () => (
     <Switch>
@@ -41,6 +43,12 @@ export const Routes = () => (
         </Route>
         <Route exact={true} path="/vr/serenity">
             <CliffSideSerenity />
+        </Route>
+        <Route exact={true} path="/vr/modernsuite">
+            <ModernSuite />
+        </Route>
+        <Route path="/secret">
+            <Secret />
         </Route>
         <Route path="/minecraft">
             <Minecraft />

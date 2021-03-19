@@ -1,9 +1,10 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
-import fallingleaves from '../../media/wires/fallingleaves.jpg';
-import fireflies from '../../media/wires/fireflytoggle.jpg';
-import mfveffects from '../../media/wires/mfveffects.jpg';
+import lights from '../../media/wires/lights.jpg';
+import randomAudio from '../../media/wires/randomaudiofireflysfx.jpg';
+import musicSystem from '../../media/wires/musicsystem.jpg';
+import woodpeckers from '../../media/wires/randomwoodpeckers.jpg';
 
 export const CliffSideSerenity = () => {
     useEffect(() => { document.title = 'Bloofle: CliffSide Serenity in details'; }, []);
@@ -14,21 +15,28 @@ export const CliffSideSerenity = () => {
             <Row>
                 <Carousel>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={fallingleaves} alt="Falling Leaves" />
+                        <img className="d-block w-100" src={lights} alt="Falling Leaves" />
                         <Carousel.Caption>
                             <h3>Falling Leaves</h3>
                             <p className="centered">Particles are used to imitate falling leaves</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={fireflies} alt="Fireflies" />
+                        <img className="d-block w-100" src={randomAudio} alt="Fireflies" />
                         <Carousel.Caption>
-                            <h3>Circuit to toggle fireflies</h3>
+                            <h3>Random Audio and fireflies</h3>
                             <p>This small circuit toggles the fireflies to fly around you when you enter the room</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={mfveffects} alt="Effects" />
+                        <img className="d-block w-100" src={musicSystem} alt="Fireflies" />
+                        <Carousel.Caption>
+                            <h3>Random Audio and fireflies</h3>
+                            <p>This small circuit toggles the fireflies to fly around you when you enter the room</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={woodpeckers} alt="Effects" />
                         <Carousel.Caption>
                             <h3>Effects used for room</h3>
                             <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>

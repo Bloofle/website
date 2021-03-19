@@ -26,7 +26,7 @@ export const VR = () => {
             <Creation title="Cliffside Serentity" image={serenitymoon} description="Cliffside Serenity is a cozy hangout area that was made for people to enjoy the vast expanse of Recroom. If you had a bad day this would be the perfect escape for you." link="/vr/serenity" />
             <Creation title="Various Interactive Objects" image={skybackground} description="Various circuits I have programmed." link="/vr/wires" />
             <Creation title="Night Falls" image={nightfalls} description="Night Falls is my latest creation. It is a comfortable picnic at a view looking upon a range of beautiful mountains. Fun Fact! I wrote this before the room was released." link="" />
-            <Creation title="The Modern Suite" image={themodernsuite} description="The Modern Suite is a lounge which was made for you to sit down, relax and talk to your friends. You can also have a swim in the pool if you are bored." link="" />
+            <Creation title="The Modern Suite" image={themodernsuite} description="The Modern Suite is a lounge which was made for you to sit down, relax and talk to your friends. You can also have a swim in the pool if you are bored." link="/vr/modernsuite" />
         </Container>
     );
 }

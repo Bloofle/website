@@ -16,10 +16,9 @@ export const Videos = () => {
                     <p>Have fun binging my videos! They are interesting so you won't get bored.</p>
                 </Col>
             </Row>
-            <Creation title="Bloofle Overture" video="https://www.youtube.com/watch?v=EmAK6SdioI4&t=8s" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="Minecraft" video="https://www.youtube.com/watch?v=_-TltwqkOI8" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="AJR Experience" video="https://www.youtube.com/watch?v=GEIMZemmEWI" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="Mount Fuji View 360" video="https://www.youtube.com/watch?v=oq8G7A09PHs&t=22s" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
+            <Creation title="Bloofle Overture" video="https://www.youtube.com/watch?v=EmAK6SdioI4&t=8s" description="An introduction of all my works in Recroom. Mount Fuji View, Gate To Atlantis and Cliffside Serenity are shown in this video." link="" />
+            <Creation title="Minecraft" video="https://www.youtube.com/watch?v=_-TltwqkOI8" description="" link="An introduction of my most interesting works in Minecraft." />
+            <Creation title="Night Falls 360" video="https://www.youtube.com/watch?v=oq8G7A09PHs&t=22s" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
             <Creation title="Queen Live Aid 1985" video="https://youtu.be/6nlRiIcjZ-c" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
             <Creation title="MountFujiView Trailer" video="https://www.youtube.com/watch?v=KvYY7NpeRZI&t=3s" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
             <Row>&nbsp;</Row>

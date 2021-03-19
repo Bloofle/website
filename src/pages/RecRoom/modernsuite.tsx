@@ -22,56 +22,35 @@ export const ModernSuite = () => {
                         <img className="d-block w-100" src={overview} alt="Falling Leaves" />
                         <Carousel.Caption>
                             <h3>My Modern Suite</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={modernSuite} alt="Falling Leaves" />
-                        <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
+                            <p className="centered">This room is filled with great lighting and circuitry.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={lightBulb} alt="Falling Leaves" />
                         <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
+                            <h3>The Lighting</h3>
+                            <p className="centered">One lightbulb with maximum range fills the entire room!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={hottube} alt="Falling Leaves" />
                         <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
+                            <h3>Hot Tub</h3>
+                            <p className="centered">This hot tub can turn on the bubbles and turn them off.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={poollightchanger} alt="Falling Leaves" />
                         <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
+                            <h3>Pool Lights</h3>
+                            <p className="centered">This circuit changes the lights colour every 20 seconds.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={musicsystem} alt="Falling Leaves" />
                         <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={candlelight} alt="Fireflies" />
-                        <Carousel.Caption>
-                            <h3>Random Audio and fireflies</h3>
-                            <p>This small circuit toggles the fireflies to fly around you when you enter the room</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={dooropener} alt="Effects" />
-                        <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>Music System</h3>
+                            <p className="centered">This is what makes up the rooms entire music.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

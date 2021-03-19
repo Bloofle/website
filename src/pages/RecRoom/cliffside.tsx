@@ -17,29 +17,29 @@ export const CliffSideSerenity = () => {
                     <Carousel.Item>
                         <img className="d-block w-100" src={lights} alt="Falling Leaves" />
                         <Carousel.Caption>
-                            <h3>Falling Leaves</h3>
-                            <p className="centered">Particles are used to imitate falling leaves</p>
+                            <h3>Slightly Flickering Lights</h3>
+                            <p className="centered">A randomized light brightness gadget that constantly generates a number from 20 - 35</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={randomAudio} alt="Fireflies" />
                         <Carousel.Caption>
-                            <h3>Random Audio and fireflies</h3>
-                            <p>This small circuit toggles the fireflies to fly around you when you enter the room</p>
+                            <h3>Random Audio Loudness and fireflies</h3>
+                            <p>This circuit creates more depth in the room.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={musicSystem} alt="Fireflies" />
                         <Carousel.Caption>
-                            <h3>Random Audio and fireflies</h3>
-                            <p>This small circuit toggles the fireflies to fly around you when you enter the room</p>
+                            <h3>The Music System</h3>
+                            <p>This is what makes up all of the music in the room.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={woodpeckers} alt="Effects" />
                         <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>Randomized Woodpecker Sound Effects</h3>
+                            <p>These sounds are played completely randomly throughout the experience.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

@@ -38,8 +38,8 @@ export const MountFuji = () => {
                     <Carousel.Item>
                         <img className="d-block w-100" src={movinglight} alt="Effects" />
                         <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>Campfire Effects</h3>
+                            <p>The light has an animation that moves it around to create an effect of the campfires light spreading.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

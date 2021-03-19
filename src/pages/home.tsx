@@ -2,9 +2,8 @@ import React from 'react';
 import atlantis from '../media/recroom/atlantis.jpg';
 import atlantis_view from '../media/recroom/atlantis_view.jpg';
 import serenity from '../media/recroom/serenity.jpg';
-import atlantis_scene from '../media/recroom/atlantis_scene.jpg';
 import minecraftImage from '../media/minecraft/create2.jpg';
-import mfvgroup from '../media/recroom/mfvgroup.jpg';
+import weirdartwork from '../media/procreate/weirdartwork.png';
 import fortniteImage from '../media/fortnite/trigger3.jpg';
 import createMemories from '../media/recroom/creatememories.jpg';
 import mfv from '../media/recroom/MFV.jpg';
@@ -51,6 +50,15 @@ export const Home = () => {
             <Container className="marketing">
                 <Row>
                     <Col>
+                        <h2 className="header_section">Welcome to Bloofle website</h2>
+                        <p className="justified lead">Thanks for stopping by. Here you can find some things which I am interested in: links to my VR rooms, galleries of my creations, videos
+                        that I make and other information.</p>
+                        <p className="justified lead">Go to the <a href="/about">About Me</a> page to find out more, or feel free to browse the <a href="/videos">Videos</a> featuring my latest creations, or just browse.</p>
+                        <p className="centered lead">Hope you'll like it!</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
                         <h2 className="header_section">My Virtual Reality Rooms</h2>
                     </Col>
                 </Row>
@@ -61,7 +69,7 @@ export const Home = () => {
                          such effects as fireflies, falling leaves and petals, smoke and haze. </p>
                         <p className="justified lead">You can create truly wonderful things in virtual reality, and it is so much fun to play together with friends after you've created them.</p>
                         <p className="justified lead">Below you can find the links to three of my most advanced creations. If you don't have an access to RecRoom or VR, check out the video section of the website
-                         for the pre-recorded trailers and 360° videos</p>
+                         for the pre-recorded trailers and 360° videos <a href="/vr">here</a>.</p>
                         <br />
                     </Col>
                 </Row>
@@ -92,9 +100,9 @@ export const Home = () => {
                         <h3 className="header_section_smaller">My other creations</h3>
                     </Col>
                 </Row>
-                <Featurette title='Minecraft' subtitle="Circuits and minigames" description="Minecraft is an excellent game for developing creative skills, and I've started playing it since I was five. I've learned that it gives you an endless amount of possibilities to create your own games, program objects, create traps, fun rides, and something that is non-static. Click the link below to find out more." image={minecraftImage} textOnTheLeft={true} link="videos" />
-                <Featurette title='Fortnite' subtitle="From game to creation" description="I liked to play Fortnite some time ago, but bashing your friends with all sorts of weapons is not something that I like, and it become boring. Fortunately, they've added a Creator mode, which I used to experiment with minigames and programming simple interactive objects. I have really liked to sequence music using Fortnite objects, too pity that they are no longer properly supported in the newer Fortnite versions. Click on the link below to see a few examples." image={fortniteImage} textOnTheLeft={false} link="videos" />
-                <Featurette title='ProCreate' subtitle="Graphic Design" description="I explore Graphics Design using ProCreate software. I use it to draw images for school and just for fun. Click below for the gallery of my works." image={atlantis_scene} textOnTheLeft={true} link="drawings" />
+                <Featurette title='Minecraft' subtitle="Circuits and minigames" description="Minecraft is an excellent game for developing creative skills, and I've started playing it since I was five. I've learned that it gives you an endless amount of possibilities to create your own games, program objects, create traps, fun rides, and something that is non-static. Click the link below to find out more." image={minecraftImage} textOnTheLeft={true} link="/minecraft" />
+                <Featurette title='Fortnite' subtitle="From game to creation" description="I liked to play Fortnite some time ago, but bashing your friends with all sorts of weapons is not something that I like, and it become boring. Fortunately, they've added a Creator mode, which I used to experiment with minigames and programming simple interactive objects. I have really liked to sequence music using Fortnite objects, too pity that they are no longer properly supported in the newer Fortnite versions. Click on the link below to see a few examples." image={fortniteImage} textOnTheLeft={false} link="/fortnite" />
+                <Featurette title='ProCreate' subtitle="Graphic Design" description="I explore Graphics Design using ProCreate software. I use it to draw images for school and just for fun. Click below for the gallery of my works." image={weirdartwork} textOnTheLeft={true} link="drawings" />
                 <hr className="featurette-divider" />
             </Container>
         </>

@@ -17,7 +17,8 @@ export const VR = () => {
         <Container className="marketing">
             <h1 className="header_section">My VR Creations</h1>
             <Row>
-                <Col><p>These are some of the locations I have created in VR</p>
+                <Col><p>These are some of the locations I have created in VR using <a href="https://rec.net">RecRoom</a>.</p>
+                    <hr className="featurette-divider" />
                 </Col>
             </Row>
             <Creation title="Mount Fuji View" image={mfvgroup} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one." link="/vr/mountfuji" />

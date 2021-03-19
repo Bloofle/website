@@ -69,7 +69,7 @@ export const Home = () => {
                          such effects as fireflies, falling leaves and petals, smoke and haze. </p>
                         <p className="justified lead">You can create truly wonderful things in virtual reality, and it is so much fun to play together with friends after you've created them.</p>
                         <p className="justified lead">Below you can find the links to three of my most advanced creations. If you don't have an access to RecRoom or VR, check out the video section of the website
-                         for the pre-recorded trailers and 360° videos</p>
+                         for the pre-recorded trailers and 360° videos <a href="/vr">here</a>.</p>
                         <br />
                     </Col>
                 </Row>
@@ -100,8 +100,8 @@ export const Home = () => {
                         <h3 className="header_section_smaller">My other creations</h3>
                     </Col>
                 </Row>
-                <Featurette title='Minecraft' subtitle="Circuits and minigames" description="Minecraft is an excellent game for developing creative skills, and I've started playing it since I was five. I've learned that it gives you an endless amount of possibilities to create your own games, program objects, create traps, fun rides, and something that is non-static. Click the link below to find out more." image={minecraftImage} textOnTheLeft={true} link="videos" />
-                <Featurette title='Fortnite' subtitle="From game to creation" description="I liked to play Fortnite some time ago, but bashing your friends with all sorts of weapons is not something that I like, and it become boring. Fortunately, they've added a Creator mode, which I used to experiment with minigames and programming simple interactive objects. I have really liked to sequence music using Fortnite objects, too pity that they are no longer properly supported in the newer Fortnite versions. Click on the link below to see a few examples." image={fortniteImage} textOnTheLeft={false} link="videos" />
+                <Featurette title='Minecraft' subtitle="Circuits and minigames" description="Minecraft is an excellent game for developing creative skills, and I've started playing it since I was five. I've learned that it gives you an endless amount of possibilities to create your own games, program objects, create traps, fun rides, and something that is non-static. Click the link below to find out more." image={minecraftImage} textOnTheLeft={true} link="/minecraft" />
+                <Featurette title='Fortnite' subtitle="From game to creation" description="I liked to play Fortnite some time ago, but bashing your friends with all sorts of weapons is not something that I like, and it become boring. Fortunately, they've added a Creator mode, which I used to experiment with minigames and programming simple interactive objects. I have really liked to sequence music using Fortnite objects, too pity that they are no longer properly supported in the newer Fortnite versions. Click on the link below to see a few examples." image={fortniteImage} textOnTheLeft={false} link="/fortnite" />
                 <Featurette title='ProCreate' subtitle="Graphic Design" description="I explore Graphics Design using ProCreate software. I use it to draw images for school and just for fun. Click below for the gallery of my works." image={weirdartwork} textOnTheLeft={true} link="drawings" />
                 <hr className="featurette-divider" />
             </Container>

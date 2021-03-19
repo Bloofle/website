@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import ReactPlayer from 'react-player';
+import VideoPlayer from './videoplayer';
 
 interface CreationProps {
     title: string;
@@ -14,28 +14,7 @@ const Creation: FC<CreationProps> = ({ title, description, image, video, link, t
     const textClass: string = textOnTheLeft ? "col-md-7 order-md-1" : "col-md-5 order-md-2";
     const imageClass: string = textOnTheLeft ? "col-md-5 order-md-2" : "col-md-7 order-md-1";
 
-    const media: any = image ? <img className="featurette-image img-fluid mx-auto" src={image} alt={title} /> :
-        <div className="video"
-            style={{
-                position: "relative",
-                paddingBottom: "56.25%" /* 16:9 */,
-                paddingTop: 25,
-                height: 0
-            }}>
-            <iframe
-                style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%"
-                }}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen={true}
-                src={video}
-                frameBorder="0"
-            />
-        </div>
+    const media: any = image ? <img className="featurette-image img-fluid mx-auto" src={image} alt={title} /> : <VideoPlayer videoUrl={video} />
 
     const externalLink: any = link ? <p><a className="btn btn-secondary" href={link} role="button">See more...</a></p> : ''
 

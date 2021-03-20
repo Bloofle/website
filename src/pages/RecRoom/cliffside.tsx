@@ -45,7 +45,7 @@ export const CliffSideSerenity = () => {
                 </Carousel>
             </Row>
             <Row>
-                <Col><p>This room required quite a lot of work. I had to use triggers and particles and other stuff to make it look cool. Browse the gallery for details</p>
+                <Col><p>This room is filled with in depth sounds. They help to make the room much more realistic.</p>
                 </Col>
             </Row>
         </Container>

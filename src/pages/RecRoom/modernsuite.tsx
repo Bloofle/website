@@ -56,7 +56,7 @@ export const ModernSuite = () => {
                 </Carousel>
             </Row>
             <Row>
-                <Col><p>This room required quite a lot of work. I had to use triggers and particles and other stuff to make it look cool. Browse the gallery for details</p>
+                <Col><p>This room was my first proud work in Recroom. It is a penthouse type building which has cool architecture.</p>
                 </Col>
             </Row>
         </Container>

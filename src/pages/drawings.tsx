@@ -22,6 +22,7 @@ export const Drawings = () => {
                 <Col><p>Yes I draw too! Here are some of my artworks. Pretty cool huh?</p>
                 </Col>
             </Row>
+            <Creation title="Sunflower" image={bubbles} description="I have designed this sunflower but I did not make a video!!!" />
             <Creation title="Mount Fuji View" image={bubbles} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
             <Creation title="Mount Fuji View" image={mandalaart} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
             <Creation title="Mount Fuji View" image={operatheatre} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />

@@ -11,7 +11,7 @@ export const Header = () => {
                     <NavDropdown.Item href="/vr">Virtual Reality</NavDropdown.Item>
                     <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
                     <NavDropdown.Item href="/drawings">Drawings</NavDropdown.Item>
-                    <NavDropdown.Item href="/music">Music</NavDropdown.Item>
+                    <NavDropdown.Item href="/vr/wires">Programming</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/about">About</Nav.Link>
               </Nav>

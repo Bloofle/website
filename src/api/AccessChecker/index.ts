@@ -17,7 +17,7 @@ const accessChecker: AzureFunction = async function (context: Context, req: Http
             name: name,
             count: 0,
             imageUrlPrefix: '',
-            error: 'Sorry, your access Code does not work'
+            error: 'Sorry, your Access Code does not work'
         }
 
         context.res = {

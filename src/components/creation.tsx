@@ -24,6 +24,7 @@ const Creation: FC<CreationProps> = ({ title, description, image, video, link, t
                 <h2 className="featurette-heading">{title}</h2>
                 <p className="justified lead">{description}</p>
                 {externalLink}
+                <br/>
             </div>
             <div className={imageClass}>
                 {media}

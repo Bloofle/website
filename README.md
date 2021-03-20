@@ -1,8 +1,9 @@
 # My Portfolio Website
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-I have later developed it to a site to showcase my achievements and interests
+I have modified it to a site to showcase my achievements and interests
 
 The website is hosted in Azure Cloud and deployed automatically via Azure Dev Ops, so I have a working CI/CD process (for beginners, of course).
+I use Blob storage for some of the data (to protect it), KeyVault for secrets, etc.
 
 ## Available Scripts
 

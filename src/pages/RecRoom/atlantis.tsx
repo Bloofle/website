@@ -45,7 +45,7 @@ export const GateToAtlantis = () => {
                 </Carousel>
             </Row>
             <Row>
-                <Col><p>This room required quite a lot of work. I had to use triggers and particles and other stuff to make it look cool. Browse the gallery for details</p>
+                <Col><p>Gate To Atlantis is a great mystical experience to go to. Everything that you see in the gallery is VERY important to the room.</p>
                 </Col>
             </Row>
         </Container>

@@ -19,9 +19,13 @@ export const Videos = () => {
             </Row>
             <Creation title="Bloofle Overture" video="https://www.youtube.com/embed/EmAK6SdioI4" description="An introduction of all my works in Recroom. Mount Fuji View, Gate To Atlantis and Cliffside Serenity are shown in this video." link="" />
             <Creation title="Minecraft" video="https://www.youtube.com/embed/_-TltwqkOI8" description="An introduction of my most interesting works in Minecraft." link="" />
-            <Creation title="Night Falls 360" video="https://www.youtube.com/embed/oq8G7A09PHs" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="Queen Live Aid 1985" video="https://www.youtube.com/embed/6nlRiIcjZ-c" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
-            <Creation title="MountFujiView Trailer" video="https://www.youtube.com/embed/KvYY7NpeRZI" description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" link="" />
+            <Creation title="Night Falls 360" video="https://www.youtube.com/embed/oq8G7A09PHs" description="This is my latest creation. It includes an entire playlist of music and wonderful scenery. Luckily, I made a 360 Video of it." link="" />
+            <Creation title="Queen Live Aid 1985" video="https://www.youtube.com/embed/6nlRiIcjZ-c" description="Not many people know this, but I am obsessed with Queen. This year I had the opportunity to help in a show called Live Aid. " link="" />
+            <Creation title="MountFujiView Trailer" video="https://www.youtube.com/embed/KvYY7NpeRZI" description="This is the trailer to Mount Fuji View. I had a friend create this trailer for me and I love it. " link="" />
+            <Creation title="Creating A Plant Out Of Random Shapes" video="https://www.youtube.com/watch?v=RTSjP9qclvw" description="Somehow, I managed to make a nice looking plant out of a random shape. This video demonstrates how I did it." link="" />
+            <Creation title="Fortnite" video="https://www.youtube.com/watch?v=awkp1wdYSGE" description="An introduction to my favourite place in my Fortnite collection." link="" />
+            <Creation title="Creating A Boat In RecRoom" video="https://www.youtube.com/watch?v=3lEwSGzwzQg&t=418s" description="Creating a boat in Recroom, this is how I did it." link="" />
+            
             <Row>&nbsp;</Row>
         </Container >
     );

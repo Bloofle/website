@@ -22,13 +22,13 @@ export const Drawings = () => {
                 <Col><p>Yes I draw too! Here are some of my artworks. Pretty cool huh?</p>
                 </Col>
             </Row>
-            <Creation title="Mount Fuji View" image={bubbles} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
-            <Creation title="Mount Fuji View" image={mandalaart} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
-            <Creation title="Mount Fuji View" image={operatheatre} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
-            <Creation title="Mount Fuji View" image={pokemon} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
-            <Creation title="Mount Fuji View" image={spacelogo} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
-            <Creation title="Mount Fuji View" image={theaterlogo} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
-            <Creation title="Mount Fuji View" image={weirdartwork} description="This room was created during Covid-19 lockdown in July-August 2020. I was hoping to visit Japan, but my plans got ruined. So I've decided to make a virtual one" />
+            <Creation title="Bubbles" image={bubbles} description="These are bubbles that were created using different layers and blurring out different parts of shading." />
+            <Creation title="Mandala" image={mandalaart} description="While I was in lockdown, I created this mandala art for a school art assignment." />
+            <Creation title="Opera Theatre" image={operatheatre} description="This is the Sydney Opera Theatre." />
+            <Creation title="Pokemon" image={pokemon} description="I made this artwork by drawing over an image and making it rainbow." />
+            <Creation title="Space Logo Design" image={spacelogo} description="This was a logo for a space game called Project Astro. I never started on the game though." />
+            <Creation title="Theatre Logo Design" image={theaterlogo} description="This is a logo concept for a luxurious theatre." />
+            <Creation title="Strange Artwork" image={weirdartwork} description="This was my first ever artwork using procreate. When I saw it at First, I thought it looked slightly like squidward." />
            
         </Container>
     );

@@ -19,19 +19,18 @@ const Creation: FC<CreationProps> = ({ title, description, image, video, link, t
     const externalLink: any = link ? <p><a className="btn btn-secondary" href={link} role="button">See more...</a></p> : ''
 
     return (
-        <>
-            <div className="row featurette">
-                <div className={textClass}>
-                    <h2 className="featurette-heading">{title}</h2>
-                    <p className="justified lead">{description}</p>
-                    {externalLink}
-                </div>
-                <div className={imageClass}>
-                    {media}
-                </div>
+        <div className="row featurette with_bottom_margin">
+            <div className={textClass}>
+                <h2 className="featurette-heading">{title}</h2>
+                <p className="justified lead">{description}</p>
+                {externalLink}
+                <br/>
+            </div>
+            <div className={imageClass}>
+                {media}
             </div>
             <hr className="featurette-divider" />
-        </>
+        </div >
     );
 };
 

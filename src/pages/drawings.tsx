@@ -29,7 +29,6 @@ export const Drawings = () => {
             <Creation title="Space Logo Design" image={spacelogo} description="This was a logo for a space game called Project Astro. I never started on the game though." />
             <Creation title="Theatre Logo Design" image={theaterlogo} description="This is a logo concept for a luxurious theatre." />
             <Creation title="Strange Artwork" image={weirdartwork} description="This was my first ever artwork using procreate. When I saw it at First, I thought it looked slightly like squidward." />
-           
         </Container>
     );
 }

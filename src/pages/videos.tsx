@@ -13,7 +13,7 @@ export const Videos = () => {
             <h1 className="header_section">My Videos</h1>
             <Row>
                 <Col>
-                    <p className="justified">Have fun binging my videos! They are interesting so you won't get bored. I have used different apps to create them. Some were made using iMovie, and some were made using DaVinci Resolve. I am still learning</p>
+                    <p className="justified">Have fun binging my videos! They are interesting so you won't get bored. I have used different apps to create them. Some were made using iMovie, and some were made using DaVinci Resolve. I am still learning, but I feel it is something that I love to do.</p>
                     <hr className="featurette-divider" />
                 </Col>
             </Row>

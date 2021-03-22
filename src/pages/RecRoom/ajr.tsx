@@ -49,28 +49,28 @@ export const AJR = () => {
                         <img className="d-block w-100" src={backstageview} alt="Backstage" />
                         <Carousel.Caption>
                             <h3>Backstage setup</h3>
-                            <p>These are the circuits I use to control various objects</p>
+                            <p>These are the circuits I use to control various lighting effects.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={wiresfrontview} alt="Effects" />
                         <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>The main effects</h3>
+                            <p>These effects are responsible for sound and visual effects</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={skybackground} alt="Effects" />
                         <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>Physical Effects</h3>
+                            <p>These include different sign variations, stage effects, ropes, etc.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={wirefullview} alt="Effects" />
                         <Carousel.Caption>
-                            <h3>Effects used for room</h3>
-                            <p>These effects are responsible for creating sounds in Mountain Fuji View room.</p>
+                            <h3>The full effect view</h3>
+                            <p>These are all of the buttons that make the show possible.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -87,7 +87,6 @@ export const AJR = () => {
                     <br />
                 </Col>
             </Row>
-
         </Container>
     );
 }

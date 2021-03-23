@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-54RCF6XZ72');
+ReactGA.initialize('UA-192720465-1');
 
 ReactDOM.render(
   <React.StrictMode>
